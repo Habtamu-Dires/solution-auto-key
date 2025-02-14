@@ -1,0 +1,22 @@
+<main class="absolute  right-0 flex flex-col w-screen">
+    <section class="flex flex-col p-4 gap-4 bg-white  ms-5 me-2 rounded-lg shadow-2xl">
+        <app-drawer-item
+            componentName="HOME"
+            [isActiveComponent]="selectedComponent === 'home'"
+            (click)="selectComponent('home')"
+        >
+        </app-drawer-item>
+        <app-drawer-item
+            componentName="OUR SERVICES"
+            [isActiveComponent]="selectedComponent === 'services'"
+            (click)="selectComponent('services')"
+        >
+        </app-drawer-item>
+        <app-drawer-item
+            componentName="CONTACT US"
+            [isActiveComponent]="selectedComponent === 'contactus'"
+            (click)="selectComponent('contactus')"
+        >
+        </app-drawer-item>
+    </section>
+</main>
