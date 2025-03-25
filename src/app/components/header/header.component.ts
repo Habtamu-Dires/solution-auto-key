@@ -10,12 +10,14 @@ import { DrawerComponent } from "../drawer/drawer.component";
   styleUrl: './header.component.css'
 })
 export class HeaderComponent implements OnInit{
-
+  
   selectedComponent = 'home';
   onMobileView:boolean = true;
   showDrawer:boolean = false;
   @Output() onSectionSelected = new EventEmitter<string>();
   @Output() onShowDrawer = new EventEmitter<boolean>();
+
+  email:string = 'something@gmail.com'
 
   constructor(){}
 

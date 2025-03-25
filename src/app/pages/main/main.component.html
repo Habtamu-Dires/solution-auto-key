@@ -1,20 +1,22 @@
-<main class="max-container relative min-h-screen w-full flex flex-col gap-4"
+<main class="relative min-h-screen w-full flex flex-col gap-4"
        [ngClass]="{'black-bg': drawerShown}">
     <!--header-->
-    <section class="sticky top-0 z-50">
+    <section class="fixed top-0 z-50 bg-graycar flex justify-center items-center w-full">
             <app-header 
+                class="w-full"
                 (onSectionSelected)="onSectionSelected($event)"
                 (onShowDrawer)="onShawDrawer($event)"
-            ></app-header>
+            ></app-header>       
     </section>
     <!--home-->
-    <section id="home" class="pt-36 md:pt-28">
+    <section id="home" class="pt-44 md:pt-36">
         <app-home></app-home>
     </section>
     <!--services-->
-    <section id="services"  class="py-16"
-            [ngClass]="{'black-bg': drawerShown}">
-        <app-services [showDrawer]="drawerShown"></app-services>
+    <section id="services"  class="py-16 w-full" [ngClass]="{'black-bg': drawerShown}">
+        <app-services 
+            [showDrawer]="drawerShown">
+        </app-services>
     </section>
     <!--footer-->
     <footer id="contactus" class="w-full">

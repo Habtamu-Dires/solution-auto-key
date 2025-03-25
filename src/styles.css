@@ -17,5 +17,6 @@
 }
 
 @theme {  
-    --color-red: #8a2d37; 
+    --color-red: #8a2d37;  
+    --color-graycar: #849690;/*#a5b5af; */
 }
