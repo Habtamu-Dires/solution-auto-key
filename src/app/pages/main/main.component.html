@@ -1,7 +1,7 @@
 <main class="relative min-h-screen w-full flex flex-col gap-4"
        [ngClass]="{'black-bg': drawerShown}">
     <!--header-->
-    <section class="fixed top-0 z-50 bg-graycar flex justify-center items-center w-full">
+    <section class="fixed top-0 z-50 bg-gray-300 flex justify-center items-center w-full">
             <app-header 
                 class="w-full"
                 (onSectionSelected)="onSectionSelected($event)"
@@ -9,7 +9,7 @@
             ></app-header>       
     </section>
     <!--home-->
-    <section id="home" class="pt-44 md:pt-36">
+    <section id="home" class="pt-48 md:pt-36">
         <app-home></app-home>
     </section>
     <!--services-->
