@@ -8,7 +8,7 @@ import { Component, Input } from '@angular/core';
   styleUrl: './footer.component.css'
 })
 export class FooterComponent {
-
+  email:string = 'something'
   @Input() showDrawer:boolean = false;
 
 }

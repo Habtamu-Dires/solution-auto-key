@@ -12,11 +12,11 @@ export class ServicesComponent {
   @Input() showDrawer:boolean = false;
 
   services = [
-    { icon: '🔑', title: 'Lost Key Replacement', description: 'Quick and efficient lost car key replacement on-site.' },
-    { icon: '🚗', title: 'Locked Vehicle Opening', description: 'Locked out? We unlock vehicles safely and damage-free.' },
-    { icon: '🔧', title: 'Car Key Programming', description: 'Expert key programming for all modern car models.' },
-    { icon: '🔏', title: 'Coded Key Programming', description: 'Securely program coded keys for maximum security.' },
-    { icon: '🛠️', title: 'Key Cloning & Immobilizer', description: 'Duplicate your key and program immobilizers with precision.' },
-    { icon: '🧑‍🔧️', title: 'Mobile & Onsite Programming', description: 'Convenient mobile and onsite programming services at your location.' }
+    { title: 'Lost Key Replacement', description: 'Quick and efficient lost car key replacement on-site.' },
+    { title: 'Locked Vehicle Opening', description: 'Locked out? We unlock vehicles safely and damage-free.' },
+    { title: 'Car Key Programming', description: 'Expert key programming for all modern car models.' },
+    { title: 'Coded Key Programming', description: 'Securely program coded keys for maximum security.' },
+    { title: 'Key Cloning & Immobilizer', description: 'Duplicate your key and program immobilizers with precision.' },
+    { title: 'Mobile & Onsite Programming', description: 'Convenient mobile and onsite programming at your location.' }
   ];
 }

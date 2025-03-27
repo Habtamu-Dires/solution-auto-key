@@ -18,6 +18,8 @@ export class HeaderComponent implements OnInit{
   @Output() onShowDrawer = new EventEmitter<boolean>();
 
   email:string = 'something@gmail.com'
+  phoneNumber:string = '+1 (571) 622-9441'
+  address:string = '123 Main St, City, Country'
 
   constructor(){}
 
