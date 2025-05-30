@@ -19,7 +19,7 @@ export class HeaderComponent implements OnInit{
 
   email:string = 'something@gmail.com'
   phoneNumber:string = '+1 (571) 622-9441'
-  address:string = '123 Main St, City, Country'
+  address:string = 'DMV Area, USA'
 
   constructor(){}
 
